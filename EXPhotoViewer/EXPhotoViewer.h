@@ -11,5 +11,6 @@
 @interface EXPhotoViewer : UIViewController <UIScrollViewDelegate>
 
 + (void) showImageFrom:(UIImageView*) image;
++ (void) showImage:(UIImage*) image fromFrame: (CGRect)frame;
 
 @end
